@@ -3,10 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="javascript.js"></script>
+        <script src="javascript.js" defer></script>
         <title>Rock, Paper, Scissors</title>
     </head>
     <body>
-        
+        <h1>Rock, Paper, Scissors</h1>
+        <section>
+            <h2>Instructions</h2>
+            <ul>
+                <li>First player to five points wins</li>
+                <li>One point is rewarded to the winning player if there is one</li>
+                <li>In the case of a draw, zero points is rewarded to both players</li>
+            </ul>
+        </section>
+        <section>
+            <p>Please select one of the following options</p>
+            <ul id="selection">
+                <li><button id="rock">Rock</button></li>
+                <li><button id="paper">Paper</button></li>
+                <li><button id="scissors">Scissors</button></li>
+            </ul>
+            <div id="output"></div>
+            <div id="human">Your points: 0</div>
+            <div id="computer">Computers points: 0</div>
+            <div id="game-result"></div>
+        </section>
     </body>
 </html>
